@@ -1,0 +1,51 @@
+nav {
+    box-shadow: 0 0 9px #ccc;
+    background: #fff;
+    a {
+        color: #000;
+        img {
+            width: 2em;
+            height: 2em;
+        }
+    }
+    main {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        .nav {
+            .section-wrapper {
+                margin: 0 0.6em;
+                img {
+                    width: 1.5em;
+                    height: 1.5em;
+                    margin: 0 0.6em;
+                }
+                &:hover {
+                    span {
+                        margin-top: 1em;
+                        z-index: 9999;
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                        color: rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
+            @media (max-width: 415px) {
+                    .section-wrapper {
+                        .navbar-brand {
+                            span {
+                                display: none;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    box-shadow: 0 0 9px #ccc;
+    background: #fff;
+}
