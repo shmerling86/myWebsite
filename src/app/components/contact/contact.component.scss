@@ -1,6 +1,6 @@
 .contact-wrapper {
     background-color: rgba(102, 151, 102, 0.1);
-    height: 100vh;
+    height: 100%;
     padding: 5em;
     margin: auto;
     h1 {
@@ -32,7 +32,7 @@
                             img {
                                 width: 2em;
                                 height: 2em;
-                                margin-right: 0.4em;                            
+                                margin-right: 0.4em;
                             }
                         }
                     }
@@ -63,7 +63,6 @@
         }
     }
     @media (max-width: 415px) {
-        height: 100%;
         font-size: 0.7em;
         h1 {
             width: 100%;
@@ -77,8 +76,8 @@
                 width: 100%;
                 form {
                     .send-btn {
-                        button{
-                            div{
+                        button {
+                            div {
                                 font-size: 0.8em;
                             }
                         }

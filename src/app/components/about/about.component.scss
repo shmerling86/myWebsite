@@ -1,6 +1,6 @@
 .about-wrapper {
     background-color: rgba(102, 151, 102, 0.1);
-    height: 100vh;
+    height: 100%;
     margin: auto;
     padding: 5em;
     h1 {
@@ -54,7 +54,6 @@
 
     @media (max-width: 415px) {
         font-size: 0.7em;
-        height: 100%;
         h1 {
             width: 100%;
             font-size: 3em;

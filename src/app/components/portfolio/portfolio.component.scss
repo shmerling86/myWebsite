@@ -1,6 +1,6 @@
 .portfolio-wrapper {
     background-color: #fff;
-    height: 100vh;
+    height: 100%;
     padding: 5em;
     margin: auto;
     h1 {
@@ -19,7 +19,6 @@
         .project {
             display: flex;
             flex-direction: column;
-            // flex: 1;
             width: 50%;
             margin: 1em;
             padding: 1em;
@@ -68,7 +67,6 @@
     }
 
     @media (max-width: 415px) {
-        height: 100%;
         font-size: 0.7em;
         h1 {
             width: 100%;
