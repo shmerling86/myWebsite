@@ -14,7 +14,7 @@
     }
     .projects-wrapper {
         display: flex;
-        width: 50%;
+        width: 60%;
         margin: auto;
         .project {
             display: flex;
@@ -35,6 +35,9 @@
                     width: 100%;
                     margin: 1em 0;
                 }
+            }
+            .title{
+                height: 7.5vh;
             }
             .project-stack {
                 display: flex;
@@ -79,6 +82,9 @@
             .project {
                 margin: 0.7em 0;
                 width: 100%;
+                .title{
+                    height: auto;
+                }
                 .project-action {
                     margin: 1em auto;
                     a {
