@@ -25,12 +25,13 @@
             box-shadow: 0 0 5px 0px;
             flex: 1;
             &:hover {
-                box-shadow: inset 0 0 5px 0px;
+                box-shadow:  0 0 10px 0px;
             }
             .title {
                 color: rgba(0, 0, 0, 0.4);
             }
             .project-image {
+                height: 18vh;
                 img {
                     width: 100%;
                     margin: 1em 0;
