@@ -1,12 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
+import { trigger, state, style, transition, animate } from '@angular/animations';
 
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  styleUrls: ['./contact.component.scss'],
+  animations: [
+    trigger('selected', [
+      state('in', style({ opacity: 1 })),
+      transition(':enter', [
+        style({ opacity: 0 }),
+        animate(2000)
+      ])
+    ])
+
+  ]
 })
 export class ContactComponent implements OnInit {
 
